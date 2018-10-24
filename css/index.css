@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Mystery+Quest|Squada+One');
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+
+}
+
+header .header__logo h1 {
+    margin: 0px auto;
+}
+
+header {
+
+    display: block;
+    content: "";
+
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    background-color: #151515;
+    opacity: .95;
+}
+
+header .header__logo {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+}
+
+
+header .header__nav {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .header__nav li {
+    display: inline;
+}
+
+header .header__nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Squada One', cursive;
+}
+
+header .header__nav li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+    header .header__logo {
+        margin: 0 2%;
+    }
+    header .header__nav {
+        flex: 1;
+        align-items: center;
+        justify-content: left;
+    }
+    header .header__nav li {
+        margin: 0 2%;
+    }
+
+}
+
+
+
+header .header__nav {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header .header__nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+header .header {
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.s-extra .popular__thumb img {
+    float: left;
+    margin: 15px;
+    margin-right: 25px;
+}
+
+.col-block_popular__post {
+    overflow: auto;
+
+}
+
+.s-footer__linklist li {
+    display: inline;
+}
+
+.featured {
+    
+    display: grid;
+    grid-template-columns: 70% 30% 30%;
+    background-color: #fff;
+    color: #444;
+
+}
+
+.entry__content {
+
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 100%;
+
+}
+
+.featured__column__featured__column--big {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.featured__column_featured__column--small {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.entry {
+    grid-column: 2;
+    grid-row: 2;
+}
