@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Mystery+Quest|Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Mystery+Quest|Qwigley|Risque|Squada+One');
+html {
+    background-color: rgb(242, 242, 242);
+}
 
 body {
     max-width: 1000px;
     margin: auto;
+
     margin-top: 0px;
 
+}
+
+.s-pageheader {
+    background-color: #151515;
 }
 
 header .header__logo h1 {
@@ -100,42 +108,14 @@ header .header {
 }
 
 
-.s-extra .popular__thumb img {
-    float: left;
-    margin: 15px;
-    margin-right: 25px;
-}
 
-.col-block_popular__post {
-    overflow: auto;
-
-}
-
-.s-footer__linklist li {
-    display: inline;
-}
 
 .featured {
-    
+
     display: grid;
-    grid-template-columns: 70% 30% 30%;
+    grid-template-columns: 70% 30%;
     background-color: #fff;
     color: #444;
-
-}
-
-.entry__content {
-
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 100%;
-
-}
-
-.featured__column__featured__column--big {
-    grid-column: 1;
-    grid-row: 1;
 
 }
 
@@ -143,9 +123,88 @@ header .header {
     grid-column: 2;
     grid-row: 1;
 
+
 }
 
-.entry {
-    grid-column: 2;
-    grid-row: 2;
+.featured__column__featured__column--big {
+    background-image: url(/foto_web/lamba.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    height: 350px;
+}
+
+
+.entry__content {
+
+    padding: 10px;
+    height: 155px;
+
+}
+
+.featured__colum__featured__column--small .entryone {
+    background-image: url('/foto_web/ksenon.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 400px) {
+    .product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 700px) {
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.product-card {
+    background-color: gray;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+.col-about {
+    text-align: center;
+    font-family: 'Risque', cursive;
+
+}
+
+.footer {
+    display:  block;
+    padding: 20px auto 40px ;
+    color: white;
+    background-color: #151515;
+}
+.row {
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+         grid-template-columns: 25% 25% 50%;
+        padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.row a {
+        color: rgb(177, 177, 177);
+        text-decoration:  none;
+}
+.s-footer__bottom {
+    text-align: center;
 }
