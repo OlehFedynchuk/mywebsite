@@ -7,20 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/foto_web/car-favicon.png" type="image/png">
     <link rel="stylesheet" href="css/index.css">
-    <title> Bunker</title>
+    <title>Bunker</title>
 </head>
 
 <body id="top">
-
-
     <section class="s-pageheader">
         <header class="header">
             <div class="header__logo">
-
                 <h1 id="logo">TUNING ATELIER: BUNKER </h1>
-
             </div>
-
             <ul class="header__nav">
                 <li>
                     <a href="index.html">Home</a>
@@ -38,19 +33,50 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-
         </header>
         <div class="pageheader-content">
             <div class="featured">
                 <div class="featured__column__featured__column--big">
                     <div class="entry__contentbig">
                         <div>
-                            <a href="" class="button_big">ACTION</a>
+                            <div onclick="show('none')" id="wrap"></div>
+                            <div id="window">
+                                <img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+                                <div class="form">
+                                    <ul class="tab-group">
+                                        <li class="tab active">
+                                            <a href="#signup">APPLICATION</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="signup">
+                                            <h1>Sign Up for Free</h1>
+                                            <form action="https://formspree.io/oleh.fedynchuk.tk.2015@lpnu.ua" method="post">
+                                                <div class="top-row">
+                                                    <div class="field-wrap">
+                                                        <input type="text" required autocomplete="off" placeholder="First Name">
+                                                    </div>
+                                                    <div class="field-wrap">
+                                                        <input type="text" required autocomplete="off" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <input type="email" required autocomplete="off" placeholder="Email Address">
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <input type="password" required autocomplete="off" placeholder="Set A Password">
+                                                </div>
+                                                <button type="submit" class="button button-block" />Get Started</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="button_big" onclick="show('block')">FREE!</button>
                         </div>
                         <h1>How do you feel that we are tuning your car?</h1>
                     </div>
                 </div>
-
                 <div class="featured__colum__featured__column--smallone">
                     <div class="entry__content">
                         <div>
@@ -60,27 +86,17 @@
                     </div>
                 </div>
                 <div class="featured__colum__featured__column--smalltwo">
-
                     <div class="entry__content">
                         <div>
                             <a href="" class="button_big">FILM</a>
                         </div>
                         <h1>What are the types of films?</h1>
                     </div>
-
                 </div>
-
-
-
-
             </div>
-
         </div>
-
-
     </section>
     <!-- end s-pageheader -->
-
     <section class="s-extra">
         <h2>Services</h2>
         <section id="products" class="product-list">
@@ -101,7 +117,7 @@
             </article>
             <article class="product-card">
                 <img src="/foto_web/page1-img3.jpg" alt="!!!">
-                <h3>Tire & Wheel</h3>
+                <h3>Tire &Wheel</h3>
                 <p>A tire (American English) or tyre (British English; see spelling differences) is a ring-shaped component that surrounds a wheel's rim to transfer a vehicle's load from the axle through the wheel to the ground and to provide traction on
                     the surface traveled over</p>
         </section>
@@ -122,35 +138,59 @@
             <div class="s-footer__sitelinks">
                 <h3>Quick Links</h3>
                 <ul class="s-footer__linklist">
-                    <li style=" list-style-image: url(/foto_web/pointfooter.png); "><a href="#0">Home</a></li>
-                    <li style=" list-style-image: url(/foto_web/pointfooter.png); "><a href="#0">Services</a></li>
-                    <li style=" list-style-image: url(/foto_web/pointfooter.png); "><a href="#0">Styles</a></li>
-                    <li style=" list-style-image: url(/foto_web/pointfooter.png); "><a href="#0">About</a></li>
-                    <li style=" list-style-image: url(/foto_web/pointfooter.png); "><a href="#0">Contact</a></li>
+                    <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
+                        <a href="#0">Home</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
+                        <a href="#0">Services</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
+                        <a href="#0">Styles</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
+                        <a href="#0">About</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
+                        <a href="#0">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div class="s-footer__social">
                 <h3>Social</h3>
                 <ul class="s-footer__linklist">
-                    <li style=" list-style-image: url(/foto_web/facebook.png); "><a href="#0">Facebook</a></li>
-                    <li style=" list-style-image: url(/foto_web/instagram.png); "><a href="#0">Instagram</a></li>
-                    <li style=" list-style-image: url(/foto_web/twitter.png); "><a href="#0">Twitter</a></li>
-                    <li style=" list-style-image: url(/foto_web/pinterest.png); "><a href="#0">Pinterest</a></li>
-                    <li style=" list-style-image: url(/foto_web/google+.png); "><a href="#0">Google+</a></li>
+                    <li style=" list-style-image: url(/foto_web/facebook.png); ">
+                        <a href="#0">Facebook</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/instagram.png); ">
+                        <a href="#0">Instagram</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/twitter.png); ">
+                        <a href="#0">Twitter</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/pinterest.png); ">
+                        <a href="#0">Pinterest</a>
+                    </li>
+                    <li style=" list-style-image: url(/foto_web/google+.png); ">
+                        <a href="#0">Google+</a>
+                    </li>
                 </ul>
             </div>
             <div class="s-footer__subscribe">
                 <h3>Сontact us</h3>
                 <div class="subscribe-form">
                     <form method="POST" action="https://formspree.io/oleh.fedynchuk.tk.2015@lpnu.ua">
-                        <label for="client-name"> Client Name :
-                 <input type="text" name="client-name"  id="client-name" required></label>
-                        <label>Email adress :
-                 <input type="email" name="client-email"  required>
-                 </label>
-                        <label> Comment :
+                        <label for="client-name">
+                                Client Name :
+                 <input type="text" name="client-name" id="client-name" required>
+                            </label>
+                        <label>
+                                Email adress :
+                 <input type="email" name="client-email" required>
+                            </label>
+                        <label>
+                                Comment :
                  <textarea id="msg" name="user_message"></textarea>
-                 </label>
+                            </label>
                     </form>
                 </div>
             </div>
@@ -161,6 +201,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
