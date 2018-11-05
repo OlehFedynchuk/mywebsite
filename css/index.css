@@ -116,7 +116,7 @@ header .header {
 }
 
 .featured__column__featured__column--big {
-    background-image: url(/foto_web/fon-car.jpg);
+    background-image: url(../foto_web/fon-car.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -125,7 +125,7 @@ header .header {
 }
 
 .featured__colum__featured__column--smallone {
-    background-image: url('/foto_web/ksenon.jpg');
+    background-image: url('../foto_web/ksenon.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -134,7 +134,7 @@ header .header {
 }
 
 .featured__colum__featured__column--smalltwo {
-    background-image: url('/foto_web/dalar.jpg');
+    background-image: url('../foto_web/dalar.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
