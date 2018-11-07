@@ -11,6 +11,9 @@
 </head>
 
 <body id="top">
+    <div id="hellopreloader">
+        <div id="hellopreloader_preload"></div>
+    </div>
     <section class="s-pageheader">
         <header class="header">
             <div class="header__logo">
@@ -30,7 +33,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Find us</a>
                 </li>
             </ul>
         </header>
@@ -39,57 +42,49 @@
                 <div class="featured__column__featured__column--big">
                     <div class="entry__contentbig">
                         <div>
-                            <div onclick="show('none')" id="wrap"></div>
-                            <div id="window">
-                                <img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
-                                <div class="form">
-                                    <ul class="tab-group">
-                                        <li class="tab active">
-                                            <a href="#signup">APPLICATION</a>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                        <div id="signup">
-                                            <h1>Sign Up for Free</h1>
-                                            <form action="https://formspree.io/oleh.fedynchuk.tk.2015@lpnu.ua" method="post">
-                                                <div class="top-row">
-                                                    <div class="field-wrap">
-                                                        <input type="text" required autocomplete="off" placeholder="First Name">
+                            <div class="modal">
+                                         <div class="form">
+                                                <img class="close" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+                                   
+                                                <h1>Sign Up for Free</h1>
+                                                <form action="https://formspree.io/oleh.fedynchuk.tk.2015@lpnu.ua" method="post">
+                                                    <div class="top-row">
+                                                        <div class="field-wrap">
+                                                            <input type="text" required autocomplete="off" placeholder="First Name">
+                                                        </div>
+                                                        <div class="field-wrap">
+                                                            <input type="text" required autocomplete="off" placeholder="Last Name">
+                                                        </div>
                                                     </div>
                                                     <div class="field-wrap">
-                                                        <input type="text" required autocomplete="off" placeholder="Last Name">
+                                                        <input type="email" required autocomplete="off" placeholder="Email Address">
                                                     </div>
-                                                </div>
-                                                <div class="field-wrap">
-                                                    <input type="email" required autocomplete="off" placeholder="Email Address">
-                                                </div>
-                                                <div class="field-wrap">
-                                                    <input type="password" required autocomplete="off" placeholder="Set A Password">
-                                                </div>
-                                                <button type="submit" class="button button-block" >Get Started</button>
-                                            </form>
-                                        </div>
+                                                    <div class="field-wrap">
+                                                        <input type="password" required autocomplete="off" placeholder="Set A Password">
+                                                    </div>
+                                                    <button type="submit" class="button button-block">Get Started</button>
+                                                </form>
                                     </div>
-                                </div>
+                            
                             </div>
-                            <button class="button_big" onclick="show('block')">FREE!</button>
+                            <button class="button_big" >FREE!</button>
                         </div>
                         <h1>How do you feel that we are tuning your car?</h1>
                     </div>
                 </div>
                 <div class="featured__colum__featured__column--smallone">
                     <div class="entry__content">
-                        <div>
+                        <!-- <div>
                             <a href="" class="button_big">XENON</a>
-                        </div>
+                        </div> -->
                         <h1>Which bulbs do you prefer?</h1>
                     </div>
                 </div>
                 <div class="featured__colum__featured__column--smalltwo">
                     <div class="entry__content">
-                        <div>
+                        <!-- <div>
                             <a href="" class="button_big">FILM</a>
-                        </div>
+                        </div> -->
                         <h1>What are the types of films?</h1>
                     </div>
                 </div>
@@ -139,19 +134,19 @@
                 <h3>Quick Links</h3>
                 <ul class="s-footer__linklist">
                     <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
-                        <a href="#0">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
-                        <a href="#0">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
-                        <a href="#0">Styles</a>
+                        <a href="">Styles</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
-                        <a href="#0">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/pointfooter.png); ">
-                        <a href="#0">Contact</a>
+                        <a href="button_big">FREE!</a>
                     </li>
                 </ul>
             </div>
@@ -159,40 +154,27 @@
                 <h3>Social</h3>
                 <ul class="s-footer__linklist">
                     <li style=" list-style-image: url(/foto_web/facebook.png); ">
-                        <a href="#0">Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100025750339436">Facebook</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/instagram.png); ">
-                        <a href="#0">Instagram</a>
+                        <a href="https://www.instagram.com/?hl=uk">Instagram</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/twitter.png); ">
-                        <a href="#0">Twitter</a>
+                        <a href="https://twitter.com/poroshenko">Twitter</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/pinterest.png); ">
-                        <a href="#0">Pinterest</a>
+                        <a href="https://www.pinterest.com/">Pinterest</a>
                     </li>
                     <li style=" list-style-image: url(/foto_web/google+.png); ">
-                        <a href="#0">Google+</a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">Google+</a>
                     </li>
                 </ul>
             </div>
             <div class="s-footer__subscribe">
-                <h3>Find us</h3>
-               <!-- <div class="subscribe-form">
-                    <form method="POST" action="https://formspree.io/oleh.fedynchuk.tk.2015@lpnu.ua">
-                        <label for="client-name">
-                                Client Name :
-                 <input type="text" name="client-name" id="client-name" required>
-                            </label>
-                        <label>
-                                Email adress :
-                 <input type="email" name="client-email" required>
-                            </label>
-                        <label>
-                                Comment :
-                 <textarea id="msg" name="user_message"></textarea>
-                            </label>
-                    </form>
-                </div>-->
+                <h3 id="contact">Find us</h3>
+                <div class="contform">
+                    <h4>str.Mandrika 12<br>Ivano-Frankivsk<br>22070 Bolechov<br>oleh.fedynchuk.tk.2015@lpnu.ua<br>Phone: (+380)-95-666-37-83</h4>
+                </div>
             </div>
         </div>
         <div class="s-footer__bottom">
@@ -202,6 +184,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 
